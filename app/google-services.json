@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "391244913849",
+    "firebase_url": "https://cynep-eb913.firebaseio.com",
+    "project_id": "cynep-eb913",
+    "storage_bucket": "cynep-eb913.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:391244913849:android:e8e966354ea880fdbd8f68",
+        "android_client_info": {
+          "package_name": "com.example.manoharudu"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "391244913849-d76tl53l6pp0mjetr294hm6k8509q4ll.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBVQqGR1ggrMEe_gIl45rrx_J2sOayGlEQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "391244913849-d76tl53l6pp0mjetr294hm6k8509q4ll.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

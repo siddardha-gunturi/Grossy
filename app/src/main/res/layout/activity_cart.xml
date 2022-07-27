@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ffffff"
+    tools:context=".Fragment_Cart">
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="633dp"
+        android:id="@+id/recyclercart"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="FETCH PRICE"
+        android:id="@+id/fetchprice"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="49dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:id="@+id/buynow"
+            android:text="BUY NOW"/>
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:textSize="30dp"
+            android:textAlignment="center"
+            android:id="@+id/totalprice"
+            android:text="0"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>
+</ScrollView>
